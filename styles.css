@@ -1,0 +1,47 @@
+body {
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+h1 {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(15, 2rem);
+  grid-template-columns: repeat(15, 2rem);
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+li {
+  width: 2rem;
+  height: 2rem;
+  font-weight: bold;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: pink;
+}
